@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IRONCLAD Fitness Studio | Premium Gym & Personal Training</title>
+  <meta name="title" content="IRONCLAD Fitness Studio | Premium Gym & Personal Training">
+  <meta name="description" content="IRONCLAD Fitness Studio is a premium local gym offering weight training, CrossFit, personal training, yoga and more. Join today and forge your strength.">
+  <meta name="keywords" content="gym, fitness studio, personal training, crossfit, weight training, yoga, zumba, cardio, local gym, membership plans">
+  <meta name="author" content="IRONCLAD Fitness Studio">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.ironcladfitness.com/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.ironcladfitness.com/">
+  <meta property="og:title" content="IRONCLAD Fitness Studio | Premium Gym & Personal Training">
+  <meta property="og:description" content="Forge your strength. Premium gym facilities, expert trainers and flexible membership plans at IRONCLAD Fitness Studio.">
+  <meta property="og:image" content="assets/images/og-cover.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.ironcladfitness.com/">
+  <meta property="twitter:title" content="IRONCLAD Fitness Studio | Premium Gym & Personal Training">
+  <meta property="twitter:description" content="Forge your strength. Premium gym facilities, expert trainers and flexible membership plans at IRONCLAD Fitness Studio.">
+  <meta property="twitter:image" content="assets/images/og-cover.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="alternate icon" href="assets/icons/favicon.svg">
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Structured data for local business SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ExerciseGym",
+    "name": "IRONCLAD Fitness Studio",
+    "image": "assets/images/og-cover.jpg",
+    "telephone": "+1-555-010-2030",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "221 Foundry Street",
+      "addressLocality": "Springfield",
+      "addressRegion": "State",
+      "postalCode": "00000",
+      "addressCountry": "US"
+    },
+    "openingHours": "Mo-Sa 05:00-22:00",
+    "sameAs": [
+      "https://www.facebook.com/",
+      "https://www.instagram.com/",
+      "https://www.youtube.com/"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ HEADER / NAVBAR ============ -->
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar" aria-label="Primary">
+      <a href="#home" class="brand">IRON<span>CLAD</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active" data-nav>Home</a></li>
+        <li><a href="#about" class="nav-link" data-nav>About</a></li>
+        <li><a href="#services" class="nav-link" data-nav>Services</a></li>
+        <li><a href="#membership" class="nav-link" data-nav>Membership</a></li>
+        <li><a href="#trainers" class="nav-link" data-nav>Trainers</a></li>
+        <li><a href="#gallery" class="nav-link" data-nav>Gallery</a></li>
+        <li><a href="#reviews" class="nav-link" data-nav>Reviews</a></li>
+        <li><a href="#bmi" class="nav-link" data-nav>BMI</a></li>
+        <li><a href="#faq" class="nav-link" data-nav>FAQ</a></li>
+        <li><a href="#contact" class="nav-link" data-nav>Contact</a></li>
+      </ul>
+
+      <a href="#membership" class="btn btn-primary nav-cta">Join Now</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO SECTION ============ -->
+    <section class="hero" id="home">
+      <div class="hero-media">
+        <img src="https://picsum.photos/seed/ironclad-hero/1920/1080" alt="" class="hero-img" fetchpriority="high">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content container">
+        <p class="eyebrow eyebrow-hero">Springfield&rsquo;s Premium Strength Studio</p>
+        <h1 class="hero-title">
+          FORGE YOUR<br><span class="text-red">STRENGTH.</span>
+        </h1>
+        <p class="hero-subtitle">
+          Real equipment. Real coaches. A training floor built for people done making excuses.
+          Weight training, CrossFit, personal coaching and recovery — under one roof.
+        </p>
+        <div class="hero-actions">
+          <a href="#membership" class="btn btn-primary btn-lg">Join Now</a>
+          <a href="tel:+15550102030" class="btn btn-outline btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.7 21 3 13.3 3 3.9c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="1.6"/></svg>
+            Call Now
+          </a>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ STRIPE MARQUEE BAND (signature element) ============ -->
+    <div class="stripe-band" aria-hidden="true">
+      <div class="stripe-track">
+        <span>STRENGTH</span><span>&bull;</span><span>DISCIPLINE</span><span>&bull;</span>
+        <span>RESULTS</span><span>&bull;</span><span>STRENGTH</span><span>&bull;</span>
+        <span>DISCIPLINE</span><span>&bull;</span><span>RESULTS</span><span>&bull;</span>
+        <span>STRENGTH</span><span>&bull;</span><span>DISCIPLINE</span><span>&bull;</span>
+        <span>RESULTS</span><span>&bull;</span>
+      </div>
+    </div>
+
+    <!-- ============ ABOUT SECTION ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="eyebrow">About The Gym</p>
+            <h2 class="section-title">Built By Lifters, <span class="text-red">For Lifters.</span></h2>
+            <p class="body-text">
+              IRONCLAD opened its doors as a no-nonsense training floor for people who wanted more than
+              a treadmill and a mirror. Today we're a full training studio: free weights, conditioning,
+              small-group coaching and recovery, run by coaches who actually program your progress instead
+              of just checking you in.
+            </p>
+
+            <div class="mission-box glass-card">
+              <h3 class="mission-title">Our Mission</h3>
+              <p>To make serious, structured training accessible to every person who walks through our
+              doors — regardless of where they're starting from.</p>
+            </div>
+
+            <h3 class="why-title">Why Choose Us</h3>
+            <ul class="why-list">
+              <li><span class="why-icon">01</span><div><strong>Certified Coaches</strong><p>Every trainer is certified and program-focused, not just floor supervision.</p></div></li>
+              <li><span class="why-icon">02</span><div><strong>Full Equipment Floor</strong><p>Free weights, machines, turf and conditioning zones — no waiting on one squat rack.</p></div></li>
+              <li><span class="why-icon">03</span><div><strong>Flexible Memberships</strong><p>Month-to-month or annual, cancel-friendly plans built around your life.</p></div></li>
+              <li><span class="why-icon">04</span><div><strong>Community That Shows Up</strong><p>Group classes and challenges that keep you accountable, not just enrolled.</p></div></li>
+            </ul>
+          </div>
+
+          <div class="about-media reveal">
+            <img src="https://picsum.photos/seed/ironclad-about/800/1000" alt="Members training on the IRONCLAD gym floor" loading="lazy" class="about-img">
+          </div>
+        </div>
+
+        <!-- Animated Counters -->
+        <div class="stats-grid reveal">
+          <div class="stat-card glass-card">
+            <span class="stat-number" data-count="1200" data-suffix="+">0</span>
+            <span class="stat-label">Active Members</span>
+          </div>
+          <div class="stat-card glass-card">
+            <span class="stat-number" data-count="18" data-suffix="">0</span>
+            <span class="stat-label">Expert Trainers</span>
+          </div>
+          <div class="stat-card glass-card">
+            <span class="stat-number" data-count="9" data-suffix="">0</span>
+            <span class="stat-label">Years Running</span>
+          </div>
+          <div class="stat-card glass-card">
+            <span class="stat-number" data-count="40" data-suffix="+">0</span>
+            <span class="stat-label">Equipment Stations</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES SECTION ============ -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">What We Offer</p>
+          <h2 class="section-title">Training For Every <span class="text-red">Goal.</span></h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card glass-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h16M4 12a2 2 0 100-4 2 2 0 000 4zm0 0a2 2 0 100 4 2 2 0 000-4zm16 0a2 2 0 100-4 2 2 0 000 4zm0 0a2 2 0 100 4 2 2 0 000-4z" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <h3>Weight Training</h3>
+            <p>Free weights and machines with coached programming for strength and hypertrophy.</p>
+          </article>
+
+          <article class="service-card glass-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12h3l2-7 4 14 3-10 2 3h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Cardio</h3>
+            <p>Treadmills, bikes, rowers and HIIT zones to build endurance and burn fat efficiently.</p>
+          </article>
+
+          <article class="service-card glass-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="6" r="2.5" stroke="currentColor" stroke-width="1.5"/><path d="M6 20l3-8 3 3 3-3 3 8M9 12V9M15 12V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Personal Training</h3>
+            <p>One-on-one coaching with a custom program built around your goals and schedule.</p>
+          </article>
+
+          <article class="service-card glass-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l2 5 5 .8-3.6 3.5.9 5-4.3-2.3-4.3 2.3.9-5L5 8.8 10 8l2-5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>CrossFit</h3>
+            <p>High-intensity functional workouts in small coached groups. Scored, scaled, relentless.</p>
+          </article>
+
+          <article class="service-card glass-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M12 4a8 8 0 000 16" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <h3>Yoga</h3>
+            <p>Mobility, breathwork and recovery sessions to balance out the heavy training days.</p>
+          </article>
+
+          <article class="service-card glass-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v20M4 8l16 8M20 8L4 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Zumba</h3>
+            <p>High-energy dance-fitness classes that make cardio feel like a night out, not a chore.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MEMBERSHIP PLANS ============ -->
+    <section class="section" id="membership">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Membership Plans</p>
+          <h2 class="section-title">Pick Your <span class="text-red">Commitment.</span></h2>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="price-card glass-card reveal">
+            <h3 class="price-name">Monthly</h3>
+            <p class="price-value">$49<span>/mo</span></p>
+            <ul class="price-features">
+              <li>Full gym floor access</li>
+              <li>2 group classes / week</li>
+              <li>Locker room &amp; showers</li>
+              <li>Cancel anytime</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
+          </div>
+
+          <div class="price-card glass-card reveal featured">
+            <span class="price-badge">Most Popular</span>
+            <h3 class="price-name">Quarterly</h3>
+            <p class="price-value">$129<span>/3mo</span></p>
+            <ul class="price-features">
+              <li>Full gym floor access</li>
+              <li>Unlimited group classes</li>
+              <li>1 personal training session</li>
+              <li>Locker room &amp; showers</li>
+              <li>Guest pass x2</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
+          </div>
+
+          <div class="price-card glass-card reveal">
+            <h3 class="price-name">Half-Yearly</h3>
+            <p class="price-value">$239<span>/6mo</span></p>
+            <ul class="price-features">
+              <li>Full gym floor access</li>
+              <li>Unlimited group classes</li>
+              <li>3 personal training sessions</li>
+              <li>Nutrition check-in</li>
+              <li>Guest pass x4</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
+          </div>
+
+          <div class="price-card glass-card reveal">
+            <h3 class="price-name">Annual</h3>
+            <p class="price-value">$449<span>/yr</span></p>
+            <ul class="price-features">
+              <li>Full gym floor access</li>
+              <li>Unlimited group classes</li>
+              <li>6 personal training sessions</li>
+              <li>Free merch kit</li>
+              <li>Guest pass x12</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRAINERS ============ -->
+    <section class="section section-alt" id="trainers">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Meet The Team</p>
+          <h2 class="section-title">Coaches Who <span class="text-red">Show Up.</span></h2>
+        </div>
+
+        <div class="trainers-grid">
+          <article class="trainer-card glass-card reveal">
+            <img src="https://picsum.photos/seed/trainer-marcus/500/560" alt="Marcus Reid, strength and conditioning coach" loading="lazy">
+            <div class="trainer-info">
+              <h3>Marcus Reid</h3>
+              <p class="trainer-exp">10 years experience</p>
+              <p class="trainer-spec">Strength &amp; Conditioning</p>
+            </div>
+          </article>
+
+          <article class="trainer-card glass-card reveal">
+            <img src="https://picsum.photos/seed/trainer-elena/500/560" alt="Elena Cruz, CrossFit coach" loading="lazy">
+            <div class="trainer-info">
+              <h3>Elena Cruz</h3>
+              <p class="trainer-exp">7 years experience</p>
+              <p class="trainer-spec">CrossFit &amp; HIIT</p>
+            </div>
+          </article>
+
+          <article class="trainer-card glass-card reveal">
+            <img src="https://picsum.photos/seed/trainer-devon/500/560" alt="Devon Blake, personal trainer" loading="lazy">
+            <div class="trainer-info">
+              <h3>Devon Blake</h3>
+              <p class="trainer-exp">12 years experience</p>
+              <p class="trainer-spec">Personal Training</p>
+            </div>
+          </article>
+
+          <article class="trainer-card glass-card reveal">
+            <img src="https://picsum.photos/seed/trainer-priya/500/560" alt="Priya Nair, yoga and mobility coach" loading="lazy">
+            <div class="trainer-info">
+              <h3>Priya Nair</h3>
+              <p class="trainer-exp">6 years experience</p>
+              <p class="trainer-spec">Yoga &amp; Mobility</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Inside The Studio</p>
+          <h2 class="section-title">The <span class="text-red">Training Floor.</span></h2>
+        </div>
+
+        <div class="gallery-grid">
+          <button class="gallery-item reveal" data-full="https://picsum.photos/seed/gallery-1/1400/1000" aria-label="Open image 1 in lightbox">
+            <img src="https://picsum.photos/seed/gallery-1/600/450" alt="Free weight area of the gym" loading="lazy">
+          </button>
+          <button class="gallery-item reveal" data-full="https://picsum.photos/seed/gallery-2/1400/1000" aria-label="Open image 2 in lightbox">
+            <img src="https://picsum.photos/seed/gallery-2/600/450" alt="Group class in session" loading="lazy">
+          </button>
+          <button class="gallery-item reveal" data-full="https://picsum.photos/seed/gallery-3/1400/1000" aria-label="Open image 3 in lightbox">
+            <img src="https://picsum.photos/seed/gallery-3/600/450" alt="Cardio equipment row" loading="lazy">
+          </button>
+          <button class="gallery-item reveal" data-full="https://picsum.photos/seed/gallery-4/1400/1000" aria-label="Open image 4 in lightbox">
+            <img src="https://picsum.photos/seed/gallery-4/600/450" alt="CrossFit functional training zone" loading="lazy">
+          </button>
+          <button class="gallery-item reveal" data-full="https://picsum.photos/seed/gallery-5/1400/1000" aria-label="Open image 5 in lightbox">
+            <img src="https://picsum.photos/seed/gallery-5/600/450" alt="Yoga and mobility studio room" loading="lazy">
+          </button>
+          <button class="gallery-item reveal" data-full="https://picsum.photos/seed/gallery-6/1400/1000" aria-label="Open image 6 in lightbox">
+            <img src="https://picsum.photos/seed/gallery-6/600/450" alt="Locker room facilities" loading="lazy">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer">&times;</button>
+      <img src="" alt="" id="lightboxImg">
+    </div>
+
+    <!-- ============ CLIENT REVIEWS ============ -->
+    <section class="section section-alt" id="reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Client Reviews</p>
+          <h2 class="section-title">Real Results, <span class="text-red">Real Words.</span></h2>
+        </div>
+
+        <div class="reviews-grid">
+          <blockquote class="review-card glass-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>"Been to a lot of gyms, none had coaches who actually corrected my form every session. Down 18 lbs in four months."</p>
+            <footer>— Sam T.</footer>
+          </blockquote>
+
+          <blockquote class="review-card glass-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>"The CrossFit classes are brutal in the best way. Coach Elena keeps it scaled so beginners aren't left behind."</p>
+            <footer>— Priya M.</footer>
+          </blockquote>
+
+          <blockquote class="review-card glass-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>"Clean equipment, never overcrowded, and the quarterly plan is genuinely a good deal for what you get."</p>
+            <footer>— Jordan K.</footer>
+          </blockquote>
+        </div>
+
+        <div class="reviews-cta reveal">
+          <a href="https://www.google.com/business/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            View More Reviews on Google
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BMI CALCULATOR ============ -->
+    <section class="section" id="bmi">
+      <div class="container">
+        <div class="bmi-wrap reveal">
+          <div class="section-head" style="text-align:left;">
+            <p class="eyebrow">Free Tool</p>
+            <h2 class="section-title">Know Your <span class="text-red">BMI.</span></h2>
+            <p class="body-text">A quick starting point before your first session — not a diagnosis.</p>
+          </div>
+
+          <form class="bmi-card glass-card" id="bmiForm" novalidate>
+            <div class="bmi-row">
+              <label for="bmiUnit">Units</label>
+              <select id="bmiUnit" name="bmiUnit">
+                <option value="metric">Metric (cm / kg)</option>
+                <option value="imperial">Imperial (in / lb)</option>
+              </select>
+            </div>
+            <div class="bmi-row">
+              <label for="bmiHeight" id="bmiHeightLabel">Height (cm)</label>
+              <input type="number" id="bmiHeight" name="bmiHeight" min="1" step="0.1" required placeholder="e.g. 175">
+            </div>
+            <div class="bmi-row">
+              <label for="bmiWeight" id="bmiWeightLabel">Weight (kg)</label>
+              <input type="number" id="bmiWeight" name="bmiWeight" min="1" step="0.1" required placeholder="e.g. 72">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Calculate BMI</button>
+
+            <div class="bmi-result" id="bmiResult" role="status" aria-live="polite" hidden>
+              <p class="bmi-score" id="bmiScore">0.0</p>
+              <p class="bmi-category" id="bmiCategory">&nbsp;</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Questions</p>
+          <h2 class="section-title">Frequently <span class="text-red">Asked.</span></h2>
+        </div>
+
+        <div class="faq-list reveal">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Do I need a membership to try a class?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>No — first-timers get one free trial class or floor session before committing to any plan.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Can I freeze or cancel my membership?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Monthly plans can be cancelled anytime with 5 days' notice. Longer plans can be frozen once for up to 30 days.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Are personal trainers included in every plan?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Quarterly plans and above include personal training sessions. Monthly members can add sessions at the front desk.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              What are your busiest hours?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Weekdays 6–8 AM and 6–8 PM are peak. Late mornings and early afternoons are quietest.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Do you offer student or family discounts?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes — bring a valid student ID or sign up as a household of 2+ at the front desk for reduced rates.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Get In Touch</p>
+          <h2 class="section-title">Come See The <span class="text-red">Floor.</span></h2>
+        </div>
+
+        <div class="contact-grid">
+          <form class="contact-form glass-card reveal" id="contactForm" novalidate>
+            <div class="form-row">
+              <label for="cName">Name</label>
+              <input type="text" id="cName" name="name" required placeholder="Your full name">
+            </div>
+            <div class="form-row">
+              <label for="cEmail">Email</label>
+              <input type="email" id="cEmail" name="email" required placeholder="you@example.com">
+            </div>
+            <div class="form-row">
+              <label for="cPhone">Phone</label>
+              <input type="tel" id="cPhone" name="phone" placeholder="+1 (555) 000-0000">
+            </div>
+            <div class="form-row">
+              <label for="cMessage">Message</label>
+              <textarea id="cMessage" name="message" rows="4" required placeholder="Tell us your goals..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="contact-info reveal">
+            <div class="info-item glass-card">
+              <h3>Phone</h3>
+              <a href="tel:+15550102030">+1 (555) 010-2030</a>
+            </div>
+            <div class="info-item glass-card">
+              <h3>Email</h3>
+              <a href="mailto:hello@ironcladfitness.com">hello@ironcladfitness.com</a>
+            </div>
+            <div class="info-item glass-card">
+              <h3>Address</h3>
+              <p>221 Foundry Street, Springfield</p>
+            </div>
+            <div class="info-item glass-card">
+              <h3>Working Hours</h3>
+              <p>Mon&ndash;Fri: 5:00 AM &ndash; 10:00 PM<br>Sat&ndash;Sun: 7:00 AM &ndash; 8:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-wrap reveal">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.207!2d-73.9857!3d40.7484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzU0LjIiTiA3M8KwNTknMDguNSJX!5e0!3m2!1sen!2sus!4v0"
+            width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" title="IRONCLAD Fitness Studio location map"></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand">IRON<span>CLAD</span></a>
+        <p>Springfield&rsquo;s premium strength and conditioning studio.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H8v3h3v6h3v-6h2.5l.5-3H14V9z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="12" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M11 9.5l4 2.5-4 2.5v-5z" fill="currentColor"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer-links" aria-label="Footer">
+        <h4>Explore</h4>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#membership">Membership</a>
+        <a href="#trainers">Trainers</a>
+      </nav>
+
+      <nav class="footer-links" aria-label="Support">
+        <h4>Support</h4>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+        <a href="#" id="privacyLink">Privacy Policy</a>
+      </nav>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; <span id="year"></span> IRONCLAD Fitness Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Privacy Policy Modal -->
+  <div class="modal" id="privacyModal" role="dialog" aria-modal="true" aria-labelledby="privacyTitle" hidden>
+    <div class="modal-content glass-card">
+      <button class="modal-close" id="privacyClose" aria-label="Close privacy policy">&times;</button>
+      <h2 id="privacyTitle">Privacy Policy</h2>
+      <p>IRONCLAD Fitness Studio collects only the information you provide through our contact form
+      (name, email, phone, message) to respond to your inquiry. We do not sell or share your data with
+      third parties. Contact hello@ironcladfitness.com to request removal of your data at any time.</p>
+    </div>
+  </div>
+
+  <!-- ============ FLOATING BUTTONS ============ -->
+  <a href="https://wa.me/15550102030" target="_blank" rel="noopener noreferrer" class="float-btn whatsapp-btn" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 00-7.8 13.5L3 21l4.6-1.2A9 9 0 1012 3z" stroke="currentColor" stroke-width="1.4"/><path d="M8.5 9c.2 3 2.5 5.3 5.5 5.5.9.1 1.5-.6 1.3-1.4l-.2-.7a.9.9 0 00-1-.6l-1 .2a5 5 0 01-2.6-2.6l.2-1a.9.9 0 00-.6-1l-.7-.2c-.8-.2-1.5.4-1.4 1.3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+
+  <a href="tel:+15550102030" class="float-btn call-btn" aria-label="Call the gym">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.7 21 3 13.3 3 3.9c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="1.6"/></svg>
+  </a>
+
+  <button class="float-btn back-to-top" id="backToTop" aria-label="Back to top" hidden>
+    <svg viewBox="0 0 24 24" fill="none"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
